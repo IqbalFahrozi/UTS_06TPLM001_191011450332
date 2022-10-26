@@ -47,14 +47,14 @@ class _HomePageState extends State<HomePage> {
             height: 150,
             margin: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
             decoration: BoxDecoration(
-              color: Colors.green,
+              color: Colors.purple.shade200,
               borderRadius: BorderRadius.circular(20),
               boxShadow: const [
                 BoxShadow(
-                  color: Colors.grey,
+                  color: Colors.black,
                   spreadRadius: .2,
-                  blurRadius: 50,
-                  offset: Offset(0, 10),
+                  blurRadius: 30,
+                  offset: Offset(0, 15),
                 ),
               ],
             ),
@@ -76,12 +76,14 @@ class _HomePageState extends State<HomePage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text('Nike SB Zoom Blazer'),
                       Text(
-                        'Mid Premium',
+                        'Nike SB Zoom Blazer',
                         style: TextStyle(
                           fontSize: 20,
                         ),
+                      ),
+                      Text(
+                        'Mid Premium',
                       ),
                       Spacer(),
                       Row(
@@ -100,13 +102,13 @@ class _HomePageState extends State<HomePage> {
             height: 150,
             margin: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
             decoration: BoxDecoration(
-              color: Colors.green,
+              color: Colors.blue.shade100,
               borderRadius: BorderRadius.circular(20),
               boxShadow: const [
                 BoxShadow(
-                  color: Colors.grey,
-                  spreadRadius: .2,
-                  blurRadius: 50,
+                  color: Colors.black,
+                  spreadRadius: .1,
+                  blurRadius: 30,
                   offset: Offset(0, 10),
                 ),
               ],
@@ -129,12 +131,14 @@ class _HomePageState extends State<HomePage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text('Nike Air Zoom Pegasus'),
                       Text(
-                        "Men's Rood Running Shoes",
+                        'Nike Air Zoom Pegasus',
                         style: TextStyle(
                           fontSize: 20,
                         ),
+                      ),
+                      Text(
+                        "Men's Rood Running Shoes",
                       ),
                       Spacer(),
                       Row(
@@ -153,13 +157,13 @@ class _HomePageState extends State<HomePage> {
             height: 150,
             margin: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
             decoration: BoxDecoration(
-              color: Colors.green,
+              color: Colors.pink.shade50,
               borderRadius: BorderRadius.circular(20),
               boxShadow: const [
                 BoxShadow(
-                  color: Colors.grey,
-                  spreadRadius: .2,
-                  blurRadius: 50,
+                  color: Colors.black,
+                  spreadRadius: .1,
+                  blurRadius: 30,
                   offset: Offset(0, 10),
                 ),
               ],
@@ -182,13 +186,13 @@ class _HomePageState extends State<HomePage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text('Nike ZoomX Vaporfly'),
                       Text(
-                        "Men's Rood Racing Shoe",
+                        'Nike ZoomX Vaporfly',
                         style: TextStyle(
                           fontSize: 20,
                         ),
                       ),
+                      Text("Men's Rood Racing Shoe"),
                       Spacer(),
                       Row(
                         children: [
@@ -206,12 +210,12 @@ class _HomePageState extends State<HomePage> {
             height: 150,
             margin: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
             decoration: BoxDecoration(
-              color: Colors.green,
+              color: Colors.grey.shade300,
               borderRadius: BorderRadius.circular(20),
               boxShadow: const [
                 BoxShadow(
-                  color: Colors.grey,
-                  spreadRadius: .2,
+                  color: Colors.black,
+                  spreadRadius: .1,
                   blurRadius: 50,
                   offset: Offset(0, 10),
                 ),
@@ -235,13 +239,13 @@ class _HomePageState extends State<HomePage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text('Nike Air Force 1 S50'),
                       Text(
-                        "Older Kids' Shoe",
+                        'Nike Air Force 1 S50',
                         style: TextStyle(
                           fontSize: 20,
                         ),
                       ),
+                      Text("Older Kids' Shoe"),
                       Spacer(),
                       Row(
                         children: [
@@ -259,13 +263,13 @@ class _HomePageState extends State<HomePage> {
             height: 150,
             margin: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
             decoration: BoxDecoration(
-              color: Colors.green,
+              color: Colors.yellow.shade100,
               borderRadius: BorderRadius.circular(20),
               boxShadow: const [
                 BoxShadow(
-                  color: Colors.grey,
-                  spreadRadius: .2,
-                  blurRadius: 50,
+                  color: Colors.black,
+                  spreadRadius: .1,
+                  blurRadius: 30,
                   offset: Offset(0, 10),
                 ),
               ],
@@ -288,13 +292,13 @@ class _HomePageState extends State<HomePage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text('Nike Waffle One'),
                       Text(
-                        "Men's Shoes",
+                        'Nike Waffle One',
                         style: TextStyle(
                           fontSize: 20,
                         ),
                       ),
+                      Text("Men's Shoes"),
                       Spacer(),
                       Row(
                         children: [
